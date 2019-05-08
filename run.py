@@ -1,4 +1,4 @@
-import os
+vimport os
 from discord.ext import commands
 import discord
 import json, asyncio
@@ -23,6 +23,9 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 
 @bot.command(hidden=True)
 async def list(ctx):
-    await ctx.send(embed, "Emoticons list\n**.**")
+    await ctx.message.delete()
+    embed = discord.Embed()
+    embed.set_image(url="")
+    await ctx.send(embed, "")
   
 bot.run(token)
