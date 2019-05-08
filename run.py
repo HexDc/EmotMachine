@@ -23,11 +23,6 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 
 @bot.command(hidden=True)
 async def list(ctx):
-
-    await (await bot.ws.ping())
-
-    now = datetime.datetime.now()
-
-    return now - msgtime
+    await ctx.send(embed, "Emoticons list\n**.**")
   
 bot.run(token)
