@@ -25,6 +25,7 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 async def list(ctx):
     await ctx.message.delete()
     embed = discord.Embed()
+    embed.
     embed.set_image(url="")
     await ctx.send(embed, "")
   
