@@ -1,4 +1,4 @@
-vimport os
+import os
 from discord.ext import commands
 import discord
 import json, asyncio
