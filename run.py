@@ -15,7 +15,7 @@ token = 'bot token'
 
 prefix = "!"
 
-description = !list 
+description = "!list" 
 
 
 
