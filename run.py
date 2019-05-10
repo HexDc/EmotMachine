@@ -1116,4 +1116,4 @@ async def e109(ctx, user:discord.Member=None):
 
 # Execute
 
-bot.run('NTczNDUyODkwMTM2Mzc5Mzk1.XMrEJQ.z0oxL1bUXJzAFZKkPUT2Ubjcefo')
+bot.run('token')
