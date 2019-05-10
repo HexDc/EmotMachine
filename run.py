@@ -19,9 +19,6 @@ prefix = [
 description = '?list'
 
 bot = commands.Bot(command_prefix=prefix, description=description)
-bot.dir_path = os.path.dirname(os.path.realpath(__file__))
-bot.command_list = []
-
 
 @bot.command(hidden=False)
 async def list(ctx):
