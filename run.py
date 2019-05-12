@@ -4,7 +4,7 @@ from discord.ext import commands
 import discord
 import sys
 import os
-
+import config
 prefix = [
     '?',
     ';',
