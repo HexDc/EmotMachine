@@ -11,6 +11,7 @@ prefix = [
 ]
 
 description = '!list'
+#insert your database address
 link = 'https://raw.githubusercontent.com/HexDc/EmotMachine/master/data/'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
