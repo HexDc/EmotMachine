@@ -1115,13 +1115,13 @@ async def e110(ctx, user:discord.Member=None):
     embed = discord.Embed(title=format(user), description="used emoticon:")
     embed.set_image(url=link + "110.png")
     await ctx.send(embed=embed)
+    
 @bot.command(hidden=False)
 async def e111(ctx, user:discord.Member=None):
     if not user:
         user = ctx.author
     await ctx.message.delete()
     embed = discord.Embed(title=format(user), description="used emoticon:")
-
     embed.set_image(url=link + "111.png")
     await ctx.send(embed=embed)
     
@@ -1131,7 +1131,6 @@ async def e112(ctx, user:discord.Member=None):
         user = ctx.author
     await ctx.message.delete()
     embed = discord.Embed(title=format(user), description="used emoticon:")
-
     embed.set_image(url=link + "112.png")
     await ctx.send(embed=embed)
 bot.run('token')
